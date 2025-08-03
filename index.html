@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="https://static.vecteezy.com/system/resources/previews/007/225/199/large_2x/robot-chat-bot-concept-illustration-vector.jpg"
+      type="image/x-icon"
+    />
+    <title>aiChat_bot</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=image_search"
+    />
+  </head>
+  <body>
+    <div class="chat-container">
+      <div class="user-chat"></div>
+      <div class="ai-chat">
+        <img src="ai-icon.svg" alt="" id="ai-image" />
+        <div class="ai-chat-box">
+          <div class="ai-chat-area">Hello how can i help you ...</div>
+        </div>
+      </div>
+    </div>
+    <div class="prompt-area">
+      <input type="text" id="prompt" placeholder="message" />
+      <div class="btns-Div">
+        <button id="image-btn">
+          <span class="material-symbols-outlined">image_search </span>
+        </button>
+        <button id="submit">
+          <img class="w-45" src="up_arrow.svg" alt="submit" />
+        </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

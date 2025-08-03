@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <rect width="128" height="128" rx="100" fill="white " stroke="#32e9e9" stroke-width="4" />
+  
+  <!-- AI Chip Base -->
+  <rect x="34" y="34" width="60" height="60" rx="10" fill="#1F2937" stroke="#32e9e9" stroke-width="2"  />
+
+  <!-- Brain Circuits -->
+  <circle cx="50" cy="50" r="4" fill="#32e9e9"/>
+  <circle cx="78" cy="50" r="4" fill="#32e9e9"/>
+  <circle cx="64" cy="64" r="4" fill="#32e9e9"/>
+  <circle cx="50" cy="78" r="4" fill="#32e9e9"/>
+  <circle cx="78" cy="78" r="4" fill="#32e9e9"/>
+
+  <!-- Connections -->
+  <path d="M50 50L64 64M78 50L64 64M50 78L64 64M78 78L64 64" stroke="#32e9e9" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- AI Text -->
+</svg>
