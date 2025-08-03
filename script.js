@@ -13,7 +13,7 @@ let user = {
   data: null,
 };
 
-const API_KEY = "AIzaSyCGQmT1Qi97evT8Yo743tvHLV01DQNKXts";
+
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${API_KEY}`;
 
 let generateResponse = async (aiChatBox) => {
