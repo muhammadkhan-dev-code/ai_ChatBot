@@ -69,11 +69,17 @@ body {
     font-size: 16px;
     line-height: 1.5;
     transition: transform 0.2s ease;
+    display: flex;
+    gap:10px;
+    flex-direction: column;
+
 }
 
 .user-chat-area {
     background: linear-gradient(90deg, #007bff, #00aaff);
     border-top-right-radius: 0;
+    
+    
 }
 
 .ai-chat-area {
@@ -162,5 +168,26 @@ body {
 .userImage{
     display: flex;
     justify-content: flex-end;
-    align-items: end;
+    align-items:center;
+}
+
+
+.chooseImg{
+    width: 30%;
+    border-radius: 15px;
+   
+}
+
+.chooseClass{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+
+}
+
+#image-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
